@@ -7,11 +7,19 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+/* Navabr styling */
 
 #navbar {
-    background-color: rgba(255, 99, 71, 0.5); /* semi-transparent light green */
+    background-color: rgba(255, 99, 71, 0.3); /* semi-transparent light green */
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
-h1 {
-    color: red;
+#navbar .nav-link {
+    color: black !important;
+    font-weight: 500;
+}
+
+.navbar-brand img {
+    height: 40px;
+    width: auto;
 }
