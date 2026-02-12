@@ -49,3 +49,7 @@
     border-radius: 10px;
     max-width: 500px;
 }
+
+.btn {
+    border-radius: 100px;
+}
