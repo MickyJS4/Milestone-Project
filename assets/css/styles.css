@@ -23,3 +23,29 @@
     height: 40px;
     width: auto;
 }
+
+.navbar-nav {
+    font-weight: 900;
+}
+
+.navbar-nav .nav-link:hover {
+    color: var(--highlight-color) !important;
+    text-decoration: underline;
+}
+
+/* Hero Section Styling */
+.hero-banner {
+    /* Path to image */
+    background-image: url('../images/hero-img.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+    width: 100%;
+}
+
+.hero-content-box {
+    background-color: rgba(255, 255, 255, 0.8); /* semi-transparent white */
+    padding: 30px;
+    border-radius: 10px;
+    max-width: 500px;
+}
