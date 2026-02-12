@@ -10,13 +10,14 @@
 /* Navabr styling */
 
 #navbar {
-    background-color: rgba(255, 99, 71, 0.3); /* semi-transparent light green */
+    background-color: rgba(28, 27, 35, 1); /* semi-transparent light green */
+     /* background-color: rgba(255, 99, 71, 0.3); /* semi-transparent light green */   
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
 }
 
 #navbar .nav-link {
-    color: black !important;
-    font-weight: 500;
+    color: white !important;
+    font-weight: 600;
 }
 
 .navbar-brand img {
@@ -50,6 +51,8 @@
     max-width: 500px;
 }
 
+
+/* Button styling */
 .btn {
     border-radius: 100px;
 }
