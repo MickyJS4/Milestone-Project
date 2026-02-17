@@ -110,6 +110,18 @@ main {
 .content {
     flex: 1;
 }
+
+/* Services */
+.card-img-top {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card {
+    overflow: hidden;
+}
+
 /* Media query */
 
 /* Mobile/Tablet View (Dropdown) */
