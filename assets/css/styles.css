@@ -7,6 +7,7 @@
     --highlight-color-light: #7a9fc2; /* light blue */
 }
 
+
 /* Pushes the footer to the bottom of the page */
 body {
   display: flex;
@@ -56,8 +57,17 @@ main {
     background-image: url('../images/hero-img.png');
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 / 9;
+    min-height: 350px;
     width: 100%;
+}
+
+/* Media query for hero banner */
+@media (max-width: 768px) {
+    .hero-banner {
+        aspect-ratio: 1 / 1;
+    }
 }
 
 .hero-content-box {
@@ -90,4 +100,14 @@ main {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
+/* Footer */
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex: 1;
+}
 /* Media query */
