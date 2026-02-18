@@ -59,7 +59,8 @@ main {
     background-position: center;
     background-repeat: no-repeat;
     aspect-ratio: 16 / 9;
-    min-height: 350px;
+    min-height: 200px;
+    max-height: 700px;
     width: 100%;
 }
 
@@ -112,15 +113,26 @@ main {
 }
 
 /* Services */
-.card-img-overlay {
-    background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
-    padding: 30px;
-    border-radius: 10px;
-    max-width: 500px;
+.card {
+    max-width: 300px;
+    max-height: 300px;
+    padding: 0;
+    margin: 5px 5px;
+    justify-content: center !important;
 }
 
-.card {
-    max-width: 500px;
+.card-img-overlay {
+    background-color: rgba(255, 255, 255, 0.3); /* semi-transparent white */
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.card-img {
+    max-width: 100%;
+    padding: 0;
+    max-height: 250px;
+    object-fit: cover;
+    
 }
 
 
