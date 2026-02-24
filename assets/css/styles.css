@@ -101,12 +101,6 @@ main {
     border-color: rgba(255, 255, 255, 0.5);
 }
 
-/* Footer */
-.site-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
 
 .content {
     flex: 1;
@@ -136,7 +130,33 @@ main {
     
 }
 
+/* Footer */
+.site-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 
+#contact {
+    background-color: rgba(28, 27, 35, 1);
+    width: 100%;
+}
+
+#contact h2 {
+    color: white;
+}
+
+#contact p {
+    color: white;
+}
+
+.sub-heading-color {
+    color: white
+}
+
+.fa-brands {
+    color: white;
+}
 
 
 /* Media query */
