@@ -116,13 +116,17 @@ main {
 }
 
 /* Services */
+
+#services .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .card {
-    max-width: 300px;
-    max-height: 300px;
+    width: 100%;
+    height: 100%; /* Forces the card to fill the height of the column */
     padding: 0;
-    margin: 5px 5px;
-    justify-content: center !important;
-    
+    margin: 0;   /* Use Bootstrap's p-1 for spacing instead of margin */
 }
 
 .card-img-overlay {
@@ -134,8 +138,7 @@ main {
 
 .card-img {
     max-width: 100%;
-    padding: 0;
-    max-height: 250px;
+    height: 100%;
     object-fit: cover;
     
 }
