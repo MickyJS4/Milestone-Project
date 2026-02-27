@@ -106,8 +106,6 @@ main {
 }
 
 
-
-
 /* Change the color of the three lines (the icon) */
 .navbar-toggler-icon {
     filter: invert(1); /* This flips the black lines to white */
@@ -189,6 +187,16 @@ footer {
 
 .fa-brands {
     color: white;
+}
+
+.fa-brands:hover {
+    color: grey;
+}
+
+.social-media-links {
+    display: flex;
+    align-items: flex-end;
+    width: 100%;
 }
 
 
