@@ -17,6 +17,10 @@ body {
   background-color: rgba(46, 46, 56, 1);
 }
 
+html {
+  scroll-behavior: smooth !important;
+}
+
 .container {
     color: white;
 }
@@ -97,7 +101,11 @@ main {
 .contact {
     background-color: rgba(28, 27, 35, 1);
     color: white;
+    /* Adjust 80px to match the actual height of your navbar */
+    scroll-margin-top: 90px;
 }
+
+
 
 
 /* Change the color of the three lines (the icon) */
@@ -116,7 +124,9 @@ main {
 }
 
 /* Steps */
-
+#steps {
+    color: white;
+}
 
 /* Services */
 
@@ -151,6 +161,13 @@ main {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+}
+
+footer {
+    background-color: rgba(28, 27, 35, 1);
+    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle white-transparent line */
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #contact {
