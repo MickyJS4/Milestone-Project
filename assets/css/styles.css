@@ -150,8 +150,13 @@ main {
 .card-img {
     max-width: 100%;
     height: 100%;
-    object-fit: cover;
-    
+    object-fit: cover;    
+}
+
+#steps .card-img-top {
+    height: 200px;       /* Force a consistent height */
+    object-fit: cover;   /* Crops the image to fill the space perfectly */
+    width: 100%;
 }
 
 /* Footer */
