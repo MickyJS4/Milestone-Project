@@ -126,6 +126,17 @@ main {
     color: white;
 }
 
+#steps .card-img-top {
+    height: 300px;       /* Force a consistent height */
+    object-fit: cover;   /* Crops the image to fill the space perfectly */
+    width: 300px;
+    border-radius: 50%;
+}
+
+#steps h5, p {
+    text-align: center;
+}
+
 /* Services */
 
 #services .row {
@@ -156,15 +167,7 @@ main {
     object-fit: cover;    
 }
 
-#steps .card-img-top {
-    height: 300px;       /* Force a consistent height */
-    object-fit: cover;   /* Crops the image to fill the space perfectly */
-    width: 100%;
-    border-radius: 50%;
-}
-#steps h5, p {
-    text-align: center;
-}
+
 
 /* Footer */
 .site-container {
