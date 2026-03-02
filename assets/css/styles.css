@@ -124,17 +124,18 @@ main {
 /* Steps */
 #steps {
     color: white;
+    text-align: center;
 }
 
 #steps .card-img-top {
-    height: 300px;       /* Force a consistent height */
-    object-fit: cover;   /* Crops the image to fill the space perfectly */
-    width: 300px;
+    width: 100%;          /* Allows image to shrink with the column */
+    max-width: 400px;     /* Limits the size on large screens */
+    height: auto;         /* Relies on aspect-ratio instead of fixed px */
+    aspect-ratio: 1 / 1;  /* Keeps it a perfect circle */
+    object-fit: cover;
     border-radius: 50%;
-}
-
-#steps h5, p {
-    text-align: center;
+    display: block;
+    margin: 0 auto;       /* Centers it within the available space */
 }
 
 /* Services */
