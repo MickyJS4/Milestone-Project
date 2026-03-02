@@ -138,6 +138,9 @@ main {
     height: 100%; /* Forces the card to fill the height of the column */
     padding: 0;
     margin: 0;   /* Use Bootstrap's p-1 for spacing instead of margin */
+    background-color: rgba(0, 0, 0, 0.00);
+    border: none;
+    color: white;
 }
 
 .card-img-overlay {
@@ -154,9 +157,10 @@ main {
 }
 
 #steps .card-img-top {
-    height: 200px;       /* Force a consistent height */
+    height: 300px;       /* Force a consistent height */
     object-fit: cover;   /* Crops the image to fill the space perfectly */
     width: 100%;
+    border-radius: 50%;
 }
 
 /* Footer */
