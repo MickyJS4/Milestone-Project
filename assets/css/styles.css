@@ -162,6 +162,9 @@ main {
     width: 100%;
     border-radius: 50%;
 }
+#steps h5, p {
+    text-align: center;
+}
 
 /* Footer */
 .site-container {
