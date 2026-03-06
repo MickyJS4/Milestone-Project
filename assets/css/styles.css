@@ -245,12 +245,15 @@ footer {
     background-color: rgba(28, 27, 35, 1);
     color: white;
     padding: 40px;
-    max-width: 700px;
-    width: 100%;
+    max-width: 600px;
+    width: 90%;
+    margin: 0 auto;
 }
 
+
+
 #meal-type, #quantity, #firstname, #surname, #phone-number, #email-address {
-    width: 300px;
+    height: 50px;
 }
 
 
