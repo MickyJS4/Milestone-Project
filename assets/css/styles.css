@@ -245,17 +245,19 @@ footer {
     background-color: rgba(28, 27, 35, 1);
     color: white;
     padding: 40px;
-    max-width: 600px;
+    max-width: 1000px;
     width: 90%;
     margin: 0 auto;
 }
-
-
 
 #meal-type, #quantity, #firstname, #surname, #phone-number, #email-address {
     height: 50px;
 }
 
+#form-header {
+    text-align: center;
+    color: white;
+}
 
 
 
