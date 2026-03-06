@@ -237,11 +237,23 @@ footer {
     min-height: 100vh;
 }
 
+.form-box input {
+    height: 50px;
+}
+
 .form-box {
     background-color: rgba(28, 27, 35, 1);
     color: white;
-    width: 500px;
+    padding: 40px;
+    max-width: 700px;
+    width: 100%;
 }
+
+#meal-type, #quantity, #firstname, #surname, #phone-number, #email-address {
+    width: 300px;
+}
+
+
 
 
 /* Media query */
