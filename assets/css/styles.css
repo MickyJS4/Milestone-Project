@@ -185,50 +185,68 @@ main {
 }
 
 /* Footer */
-.site-container {
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-}
-
-footer {
+.site-footer {
     background-color: rgba(28, 27, 35, 1);
-    border-top: 1px solid rgba(255, 255, 255, 0.1); /* Subtle white-transparent line */
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-#contact {
-    background-color: rgba(28, 27, 35, 1);
+    color: #ffffff;
     width: 100%;
 }
 
-#contact h2 {
-    color: white;
-}
-
-#contact p {
-    color: white;
-}
-
-.sub-heading-color {
-    color: white
-}
-
-.fa-brands {
-    color: white;
-}
-
-.fa-brands:hover {
-    color: grey;
-}
-
-.social-media-links {
+.footer-contact-area {
+    padding: 50px 20px;
     display: flex;
-    align-items: flex-end;
-    width: 100%;
+    justify-content: center;
 }
 
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+
+.contact-heading {
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.vertical-divider {
+    width: 1px;
+    height: 25px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.social-links {
+    display: flex;
+    gap: 15px;
+}
+
+.contact-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover, .social-links a:hover {
+    color: #3498db;
+}
+
+/* Copyright bar */
+.footer-bottom-bar {
+    background-color: #15151c;
+    padding: 15px 20px;
+    text-align: center;
+    border-top: 1px solid rgba(255, 255 ,255 0.05);
+}
+
+.footer-bottom-bar p {
+    margin: 0;
+    font-size: 0.85rem;
+    opacity: 0.6;
+}
 
 /* Order Page */
 .order-page-logo {
@@ -273,7 +291,10 @@ footer {
     max-width: 1000px;
     width: 90%;
     margin: 0 auto;
+    margin: 50px;
 }
+
+
 
 #meal-type, #quantity, #firstname, #surname, #phone-number, #email-address {
     height: 50px;
