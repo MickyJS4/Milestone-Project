@@ -264,10 +264,15 @@ footer {
 
 }
 
-.reset-button {
+.reset {
     width: 200px;
+}
+
+.button-container {
     display: flex;
-    justify-content: center !important;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
 }
 
 
