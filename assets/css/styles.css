@@ -259,6 +259,16 @@ footer {
     color: white;
 }
 
+.submit {
+    width: 200px;
+
+}
+
+.reset-button {
+    width: 200px;
+    display: flex;
+    justify-content: center !important;
+}
 
 
 /* Media query */
