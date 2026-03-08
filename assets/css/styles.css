@@ -240,13 +240,13 @@ footer {
 }
 
 .order-page-discount {
-    background-color: white;
+    background-color: rgb(130, 130, 146);
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    color: black;
+    color: white;
     border-radius: 30px;
 }
 
