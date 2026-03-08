@@ -229,12 +229,22 @@ footer {
     width: 100%;
 }
 
+
+/* Order Page */
+.order-page-logo {
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
 /* Form section */
 #form {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    min-height: 60vh;
 }
 
 .form-box input {
