@@ -396,6 +396,18 @@ main {
     width: 100%;
 }
 
+.form-box label {
+    display: block;
+    margin-bottom: 8px;
+    width: 100%;
+}
+
+#extra-info {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
 
 /* Media query */
 
