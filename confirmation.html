@@ -26,7 +26,7 @@
 
 </head>
 
-<body id="order-page" class="site-container">
+<body class="site-container">
     <!-- Navigation Bar -->
     <nav id="navbar" class="navbar navbar-expand-lg px-5">
         <div class="container-fluid">
@@ -47,7 +47,7 @@
                                 class="fa-regular fa-chart-bar d-lg-none me-2"></i>Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="recipes.html"><i
+                        <a class="nav-link active aria-current" href="recipes.html"><i
                                 class="fa-regular fa-lemon d-lg-none me-2"></i>Recipes</a>
                     </li>
                     <li class="nav-item">
@@ -61,80 +61,6 @@
             </div>
         </div>
     </nav>
-
-    <body>
-        <div class="order-page-logo">
-            <img src="assets/images/favicon.png">
-        </div>
-        <section id="form-header" class="container-fluid">
-            <h1 class="display-3"><strong>Place an order!</strong></h1><br>
-            <p>Choose your meal and we'll take it from there!</p>
-        </section>
-
-        <section id="form" class="container">
-            <div class="form-box">
-                <form class="row g-3" method="GET" action="confirmation.html">
-
-                    <div class="col-12 col-md-6">
-                        <label for="firstname">First Name:</label>
-                        <input type="text" id="firstname" name="firstname" class="form-control" required>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="surname">Surname:</label>
-                        <input type="text" id="surname" name="surname" class="form-control" required>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="email-address">Email Address:</label>
-                        <input type="email" id="email-address" name="email-address" class="form-control" required>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="phone-number">Phone Number:</label>
-                        <input type="number" id="phone-number" name="phone-number" class="form-control" required>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="meal-type">Meal Type:</label>
-                        <select for="meal-type" id="meal-type" class="form-select" required>
-                            <option></option>
-                            <option>Carbohydrates</option>
-                            <option>Protein</option>
-                            <option>Vegan</option>
-                            <option>Vegetarian</option>
-                        </select>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="quantity">Quantity:</label>
-                        <select name="quantity" id="quantity" class="form-select" required>
-                            <option></option>
-                            <option>2 Boxes</option>
-                            <option>4 Boxes</option>
-                            <option>6 Boxes</option>
-                            <option>8 Boxes</option>
-                        </select>
-                    </div>
-
-                    <div class="col-12 col-md-6">
-                        <label for="extra-info">Extra Information:</label>
-                        <textarea type="text" name="extra-info" id="extra-info" placeholder="Please list any preferences or allergies"></textarea>
-                    </div>
-
-                    <div class="order-page-discount col-12">
-                        <p>Get 20% off your first order</p>
-                    </div>
-
-                    <div class="button-container col-12 col-md-6">
-                        <button type="reset" class="reset btn btn-outline-light">Reset</button>
-
-                        <button type="submit" class="submit btn btn-light">Order</button>
-                    </div>
-
-                </form>
-            </div>
-        </section>
 
     <footer id="contact-section" class="site-footer">
         <div class="footer-contact-area">
@@ -174,8 +100,6 @@
 
 
     </footer>
-
-    </body>
 
 
 
