@@ -141,6 +141,15 @@ main {
     text-align: center;
 }
 
+.steps-section {
+    width: 100%;
+    background-color: rgba(26, 26, 36, 0.5);
+    border-radius: 10px;
+    border: solid 1px white;
+    margin: 20px 0;
+    padding: 10px 0;
+}
+
 #steps .card-img-top {
     width: 100%;
     /* Allows image to shrink with the column */
@@ -171,6 +180,15 @@ main {
 }
 
 /* Services */
+
+.services-section {
+    width: 100%;
+    background-color: rgba(26, 26, 36, 0.5);
+    border-radius: 10px;
+    border: solid 1px white;
+    margin: 20px 0;
+    padding: 10px 0;
+}
 
 /* 1. Services Row: Remove manual flex, use Bootstrap's centering instead */
 #services .row {
