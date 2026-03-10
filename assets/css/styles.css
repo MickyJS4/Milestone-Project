@@ -86,9 +86,6 @@ main {
     color: white;
 }
 
-#services .card:hover {
-    color: white;
-}
 
 /* Media query for hero banner */
 @media (max-width: 768px) {
