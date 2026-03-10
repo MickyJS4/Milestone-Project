@@ -292,6 +292,34 @@ main {
     margin-bottom: 15px;
 }
 
+.card-footer {
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-kcal {
+    border: solid 1px;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
+.card-protein {
+    border: solid 1px;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
+.card-carbs {
+    border: solid 1px;
+    border-radius: 15px;
+    font-size: 10px;
+    padding: 0.2rem;
+}
+
 
 
 /* Footer */
