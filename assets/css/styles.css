@@ -268,8 +268,8 @@ main {
 
 
 
-.all-meals .card {
-        background-color: #1a1a24;
+.all-meals {
+    background-color: #1a1a24;
     border: 1px solid rgba(255, 255, 255, 0.2);
     border-radius: 15px;
     padding: 20px;
