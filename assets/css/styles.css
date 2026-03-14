@@ -10,7 +10,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    margin-top: 50px;
+    margin-top: 100px;
     background-color: rgba(46, 46, 56, 1);
     font-family: "Inter", sans-serif;
 }
@@ -433,8 +433,17 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 200px;
 }
+
+.meal-page-logo {
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+}
+
 
 .order-page-discount {
     background-color: rgb(130, 130, 146);
@@ -481,9 +490,8 @@ main {
     color: white;
     padding: 40px;
     max-width: 1000px;
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
-    margin: 50px;
 }
 
 
