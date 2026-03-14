@@ -53,6 +53,15 @@ main {
     transform: translateY(-2px);
 }
 
+#navbar .nav-link.active-link {
+    color: #3498db !important; /* Changes text to the blue used in your footer links */
+    text-decoration: underline;
+    text-underline-offset: 8px; /* Adds space between text and underline */
+    text-decoration-thickness: 2px; 
+}
+
+
+
 .navbar-brand img {
     height: 60px;
     width: auto;
@@ -393,7 +402,7 @@ main {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    text-decoration: none;
+    text-decoration: underline;
     transition: color 0.3s ease;
 }
 
@@ -441,7 +450,7 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 250px;
 }
 
 
