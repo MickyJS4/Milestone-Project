@@ -402,7 +402,7 @@ main {
     align-items: center;
     gap: 10px;
     color: #ffffff;
-    text-decoration: underline;
+    text-decoration: none;
     transition: color 0.3s ease;
 }
 
