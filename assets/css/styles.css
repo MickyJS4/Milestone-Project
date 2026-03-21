@@ -82,10 +82,13 @@ main {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    aspect-ratio: 16 / 9;
-    min-height: 200px;
-    max-height: 700px;
     width: 100%;
+    /* Set a fixed height for desktop so it doesn't crop weirdly */
+    height: 80vh; 
+    min-height: 600px;
+    display: flex;
+    align-items: center; /* Vertical center for desktop */
+    padding-top: 80px; /* Accounts for fixed navbar height */
 }
 
 .about-us {
@@ -105,15 +108,22 @@ main {
 /* Media query for hero banner */
 @media (max-width: 768px) {
     .hero-banner {
-        aspect-ratio: 1 / 1;
+        height: auto;
+        padding-top: 120px; /* Extra space for mobile navbar */
+        padding-bottom: 60px; /* Creates the gap at the bottom */
+        align-items: flex-start; /* Keeps box near the top on mobile */
     }
 }
+
 
 .hero-content-box {
     background-color: rgba(46, 46, 56, 0.8);
     padding: 30px;
-    border-radius: 10px;
+    border-radius: 20px;
     max-width: 500px;
+    width: 100%;
+    height: fit-content; /* Critical: Stops the box from stretching */
+    margin: 0 auto; /* Centers horizontally on mobile */
 }
 
 
@@ -442,7 +452,19 @@ main {
     width: 100%;
     display: flex;
     justify-content: center;
-    height: 200px;
+    height: 250px;
+    margin-top: 50px;
+}
+
+.order-page-header {
+    background-color: rgba(26, 26, 36, 0.5);
+    border-radius: 10px;
+    border: solid 1px white;
+    margin: 20px 0;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .meal-page-logo {
@@ -451,6 +473,7 @@ main {
     display: flex;
     justify-content: center;
     height: 250px;
+    margin-top: 50px;
 }
 
 
@@ -500,7 +523,8 @@ main {
     padding: 40px;
     max-width: 1000px;
     width: 100%;
-    margin: 0 auto;
+    margin: 30px auto;
+    border-radius: 50px;
 }
 
 
@@ -607,3 +631,4 @@ main {
         margin-left: 1.5rem !important;
     }
 }
+
