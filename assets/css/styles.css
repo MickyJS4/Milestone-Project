@@ -1,7 +1,7 @@
 /* ==========================================================================
    1. ROOT & GLOBAL STYLES
    ========================================================================== */
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 
 :root {
     --primary-font: "Inter", sans-serif;
@@ -66,7 +66,7 @@ main {
 
 .navbar-brand img {
     height: 60px;
-    width: auto;
+    width: 130px;
 }
 
 .navbar-nav {
@@ -105,7 +105,7 @@ main {
 
 /* Hero Banner */
 .hero-banner {
-    background-image: url('../images/hero-img.png');
+    background-image: url('../images/hero-img.webp');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -197,13 +197,13 @@ main {
     border-radius: 15px;
     padding: 20px;
     transition: all 0.3s ease;
-    width: auto;
-    height: 100%;
-    margin-bottom: 20px;
-    color: white;
+    width: 100%; /* Changed from auto to 100% for Bootstrap stability */
+    height: 100%; /* Allows the column to stretch */
     display: flex;
     flex-direction: column;
+    color: white;
 }
+
 
 #services .card-body {
     flex: 1 1 auto;
@@ -218,13 +218,13 @@ main {
     flex-grow: 1;
 }
 
+/* Services Section - Performance Fix */
 #services .card-img-top {
     width: 100%;
-    height: auto;
-    aspect-ratio: 1 / 1;
+    height: auto; /* Keeps your requested auto height */
+    aspect-ratio: 1 / 1; /* CRITICAL: Tells the browser the shape before the image loads */
     object-fit: cover;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    background-color: #2e2e38; /* Placeholder color to prevent a white flash */
 }
 
 #services .card:hover {
@@ -510,6 +510,8 @@ main {
         padding-top: 120px; 
         padding-bottom: 60px; 
         align-items: flex-start; 
+        height: 500px; /* Locks the height so it doesn't "wobble" on scroll */
+        min-height: 500px;
     }
 }
 
