@@ -104,17 +104,25 @@ main {
    ========================================================================== */
 
 /* Hero Banner */
-.hero-banner {
-    background-image: url('../images/hero-img.webp');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+.hero-container {
+    position: relative;
     width: 100%;
-    height: 80vh; 
+    height: 80vh;
     min-height: 600px;
     display: flex;
-    align-items: center; 
-    padding-top: 80px; 
+    align-items: center;
+    overflow: hidden; /* Keeps the image from spilling out */
+    padding-top: 80px;
+}
+
+.hero-bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Acts exactly like background-size: cover */
+    z-index: -1; /* Puts the image behind your text box */
 }
 
 .hero-content-box {
@@ -123,8 +131,23 @@ main {
     border-radius: 20px;
     max-width: 500px;
     width: 100%;
-    height: fit-content;
-    margin: 0 auto;
+    position: relative;
+    z-index: 1;
+    margin-left: 0; /* Align to the left of the container */
+}
+
+@media (max-width: 768px) {
+    .hero-container {
+        height: 500px;
+        min-height: 500px;
+        align-items: center;
+        padding-top: 100px;
+    }
+    
+    .hero-content-box {
+        margin: 0 auto; /* Center the box on mobile */
+        padding: 20px;
+    }
 }
 
 .about-us {
